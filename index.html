@@ -1,98 +1,314 @@
 <!-- ini untuk html   -->
  <!doctype html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <script src="https://kit.fontawesome.com/cae549b322.js" crossorigin="anonymous"></script>
-            <title>JalanYuk.com - Membantu kamu dalam Mencari Hiburan</title>
- 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/cae549b322.js" crossorigin="anonymous"></script>
+        <title>JalanYuk.com - Membantu kamu dalam Mencari Hiburan</title>
+
+            <!-- CSS untuk Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+           
             <!-- CSS -->
-             <link rel="stylesheet" href="css\style.css">
-        </head>
+        <link rel="stylesheet" href="css\style.css">
+</head>
             
-        <body>
-         <main>
+<body>
             <!-- HEADER & NAVIGATION -->
-        <section class="banner">
-                    
-            
-        <header class="main-header">
+<section class="banner">      
+    <header class="main-header">
 
             <!-- LOGO COMPANY -->
-        <div class="logo-company">
-            <a href="index.html">
-                <img src="assets\logo-putih.png" class="logo-company">
-            </a>
-        </div>
+    <div class="logo-company">
+        <a href="index.html">
+            <img src="assets\logo-putih.png" class="logo-company">
+         </a>
+    </div>
 
            <!-- NAVIGATION -->
-        
+      <nav class="navbar-content"> 
         <ul class="container-navbar">
-            <li>
-                <a href="index.html" class="navbar-button">Home</a>
-            </li>
-            
-            <li>
-                <a href="#" class="navbar-button">Our Packages</a>
-            </li>
-            
-            <li>
-                <a href="#" class="navbar-button">About us</a>
-            </li>
-            
-            <li>
-                 <a href="#" class="navbar-button">Contact</a>
-            </li>    
+            <li><a href="index.html" class="navbar-button">Home</a></li>
+            <li><a href="#ourpackage" class="navbar-button">Our Packages</a></li>
+            <li><a href="#content-contact" class="navbar-button">Contact</a></li>    
         </ul> 
-
-        <nav class="header-button"> 
-            <a href="#login" class="main-button">Login</a>
-            <a href="#register" class="main-button">Register</a>
-        </nav>
-            
+        </nav> 
         </header>
 
             <header class="banner-content">
-                <h1>Hai Kamu! Kamu mau kemana hari ini?</h1>
+                <h1>Hai kamu! Kamu mau kemana hari ini?</h1>
                 <h3>JalanYuk.com - Satu aplikasi untuk kebutuhan Hiburan kamu</h3>
             </header>
 
                 <div class="button-content">
-                    <a href="#"><i class="fa-solid fa-plane-departure fa-2x"></i><br>Pesawat</a>
-                    <a href="#"><i class="fa-solid fa-car-side fa-2x"></i><br>Sewa Mobil</a>
-                    <a href="#"><i class="fa-solid fa-train-subway fa-2x"></i><br>Kereta Api</a>
-                    <a href="#"><i class="fa-solid fa-bus fa-2x"></i><br>Bus & Travel</a>
-
+                    <a href="#main-content"><i class="fa-solid fa-plane-departure fa-2x"></i><br>Pesawat</a>
+                    <a href="#main-content-2"><i class="fa-solid fa-route fa-2x"></i><br>Atraksi</a>
                 </div>
-            </section>
-         </main>
+</section>
             <!-- HEADER & NAVIGATION END -->
         
           
-            <!-- MAIN CONTENT -->
-        <main>
-            <section id="package-section">
-                <header>
-                    <h2 class="text-package">OUR PACKAGE</h2>
-                    <h3>Cek destinasi yang populer saat ini!</h3>
-                </header>
-            </section>
-        </main>
+             <!-- MAIN CONTENT -->
+<section id="ourpackage" class="container">
+    <h2 class="text-wrapper">Cek destinasi yang populer saat ini!</h2>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="https://plus.unsplash.com/premium_photo-1700954824012-08ce5362e6c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D"/>
+            <img id="slide-2" src="https://plus.unsplash.com/premium_photo-1668883188917-761f35942220?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D"/>
+            <img id="slide-3" src="https://images.unsplash.com/photo-1704949841592-73aea920b8d9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5jb2x8ZW58MHx8MHx8fDA%3D"/>
+            <img id="slide-4" src="https://images.unsplash.com/photo-1711704406598-a2c93aef0bae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhJTIwd2lzYXRhfGVufDB8fDB8fHww"/>
+        </div>
+        <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+        </div>
+    </div>
+
+     <!-- CONTENT PESAWAT -->
+</section>
+    <div>
+    <h2 class="text-packages">Our Packages</h2>
+    <section id="main-content" class="main-container">
+        <h2 id="content-pesawat" class="text-pesawat">Maskapai pilihan hari ini!</h2>    
+        <div class="container-pesawat">   
+        
+        <div class="package-card">
+            <div class="package-image">
+                <img src="https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081_1280.jpg" alt="package-image">
+            </div>
+            <div class="package-content">
+                <div class="package-info">
+                    <div class="package-text">
+                        <h3>Jakarta <i class="fa-solid fa-right-left"></i> Osaka</h3>
+                        <P>Japan Airways</P>
+                    </div>
+                    <div class="package-details">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-calendar-alt"></i>
+                            <span>3 Days 2 Nights</span>
+                        </div>
+                        <br>
+                        <div class="payment-1">
+                        <span>IDR 8.204.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="package-card">
+        <div class="package-image">
+            <img src="https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YW1zdGVyZGFtfGVufDB8fDB8fHww" alt="package-image">
+        </div>
+        <div class="package-content">
+            <div class="package-info">
+                <div class="package-text">
+                    <h3>Jakarta <i class="fa-solid fa-right-left"></i> Amsterdam</h3>
+                    <P>Maskapai Berbeda Ekonomi</P>
+                </div>
+                <div class="package-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-calendar-alt"></i>
+                        <span>4 Days 3 Nights</span>
+                    </div>
+                    <br>
+                    <div class="payment-1">
+                    <span>IDR 11.104.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="package-card">
+    <div class="package-image">
+        <img src="https://media.istockphoto.com/id/484691096/id/foto/senja-di-jembatan-bhumibol-di-samut-prakan-thailand.jpg?s=612x612&w=0&k=20&c=EdD-eTM6_PT_zh_dqQ9YBI3puPJ07KoJ9i7GxKS463k=" alt="package-image">
+    </div>
+    <div class="package-content">
+        <div class="package-info">
+            <div class="package-text">
+                <h3>Jakarta <i class="fa-solid fa-right-left"></i> Batam</h3>
+                <P>Garuda Indonesia Ekonomi</P>
+            </div>
+            <div class="package-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-calendar-alt"></i>
+                    <span>1 Days 1 Nights</span>
+                </div>
+                <br>
+                <div class="payment-1">
+                <span>IDR 1.640.000</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="package-card">
+    <div class="package-image">
+        <img src="https://media.istockphoto.com/id/1437392713/id/foto/masjid-selat-malaka.jpg?s=612x612&w=0&k=20&c=69QsZuPpWibcMyJSyGbTp9ITSLMPQ0Tdn9C0BM8sNa4=" alt="package-image">
+    </div>
+    <div class="package-content">
+        <div class="package-info">
+            <div class="package-text">
+                <h3>Jakarta <i class="fa-solid fa-right-left"></i> Pontianak</h3>
+                <P>Sriwijaya Air Ekonomi</P>
+            </div>
+            <div class="package-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-calendar-alt"></i>
+                    <span>3 Days 2 Nights</span>
+                </div>
+                <br>
+                <div class="payment-1">
+                <span>IDR 8.204.000</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>   
+</section>
+       <!-- CONTENT PEASAWAT END -->
+
+<br>
+
+
+<br>
+    <!-- CONTENT ATRAKSI -->
+<section id="main-content-2" class="main-container-2">
+    <h2 class="text-atraksi">Tempat Bermain & Atraksi yang populer hari ini!</h2>    
+        <div class="container-atraksi">   
+        <div class="package-card">
+            <div class="package-image">
+                <img src="https://media.istockphoto.com/id/172245075/photo/boy-dolphin.webp?a=1&b=1&s=612x612&w=0&k=20&c=dfAmziA8oxK8FgH-dYOMNpWZg00f0LlCv_N9s4s9dio=" alt="package-image">
+            </div>
+            <div class="package-content">
+                <div class="package-info">
+                    <div class="package-text">
+                        <h3>Sea World Ancol</h3>
+                    </div>
+                    <div class="package-details">
+                        <div class="detail-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Jakarta Utara, Jakarta</span>
+                        </div>
+                        <br>
+                        <div class="payment-2">
+                        <span>IDR 75.500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="package-card">
+        <div class="package-image">
+            <img src="https://www.ancol.com/blog/wp-content/uploads/2023/12/foto-dufan-ancol-jakarta-liburan-akhir-tahun-tempat-wisata-ancol-1024x536.jpg" alt="package-image">
+        </div>
+        <div class="package-content">
+            <div class="package-info">
+                <div class="package-text">
+                    <h3>Tiket Dunia Fantasi (Dufan) Ancol</h3>
+                </div>
+                <div class="package-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Jakarta Utara, Jakarta</span>
+                    </div>
+                    <br>
+                    <div class="payment-2">
+                    <span>IDR 190.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="package-card">
+    <div class="package-image">
+        <img src="https://boxies123.co.id/wp-content/uploads/2021/09/funworld.jpg" alt="package-image">
+    </div>
+    <div class="package-content">
+        <div class="package-info">
+            <div class="package-text">
+                <h3>Funworld Pondok Indah</h3>
+            </div>
+            <div class="package-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Kebayoran Lama, Jakarta Selatan</span>
+                </div>
+                <br>
+                <div class="payment-2">
+                <span>IDR 198.000</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="package-card">
+    <div class="package-image">
+        <img src="https://cdn.antaranews.com/cache/1200x800/2023/09/09/timezonekarawaci.jpg" alt="package-image">
+    </div>
+    <div class="package-content">
+        <div class="package-info">
+            <div class="package-text">
+                <h3>Timezone Supermal Karawaci</h3>
+            </div>
+            <div class="package-details">
+                <div class="detail-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Curug, Tangerang</span>
+                </div>
+                <br>
+                <div class="payment-2">
+                <span>IDR 80.000</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div> 
+</div>  
+</section>
+
             <!-- MAIN CONTENT END -->
 
 
-
-
-
             <!-- Form Contact Us -->
-            
-            
-            
-            <!-- FOOTER -->
-        <footer>
+<section id="content-contact" class="contact">
+    <div class="container-contact">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Siap membantu Anda</h3>
+                <br>
+    <form name="message-form" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Nama lengkap">
+            </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Isi Email">
+            </div>
+            <div class="form-group">
+             <label for="message">Pesan</label>
+                <textarea id="message" name="message" placeholder="Isi Pesan"></textarea>
+                </div>
+                <button type="button" onclick="validateForm()" class="submit-button">Kirim</button>
+                <p id="error-name"></p>
+            </div>
+        </div>
+    </div>
+</form>
+    <div class="contact-info">
+        <h3>Kontak yang bisa dihubungi</h3>
+        <p><i class="fa-solid fa-phone"></i> +62 123 456 789</p>
+        <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> 123 Trakarta, Jakarta, Indonesia</p>
+    </div>
+</section>
 
-        </footer>
-       
-        </body>
-    </html>
+    <script src="Js/script.js"></script>
+</body>
+</html>
